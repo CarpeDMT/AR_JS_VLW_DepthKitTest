@@ -47,7 +47,10 @@
 		<a href="http://depthkit.tv" target="_blank" rel="noopener">DepthKit.js</a> - Simple example using Three.js<br/> Written
 		by <a href="http://orfleisher.com">juniorxsound</a>
 	</div>
-
+	
+	<a-scene embedded arjs='trackingMethod: best;'>
+	<a-anchor hit-testing-enabled='true'>
+		
 	<script>
 		//Some general Three.js components
 		var renderer,
@@ -58,8 +61,7 @@
 		//DepthKit character
 		var character;
 		
-	<a-scene embedded arjs='trackingMethod: best;'>
-	<a-anchor hit-testing-enabled='true'>
+	
 		
 		init();
 
